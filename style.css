@@ -1,0 +1,601 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway:wght@400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #fff;
+    font-family: Arial;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+   /* justify-content: center;*/
+    align-items: center;
+}
+
+.body{
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -40px;
+  bottom: -40px;
+  width: auto;
+  height: auto;
+  background-image: url(bia-andrade-SmkZz4aR-Ng-unsplash.jpg);
+  height: 200%;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+#formDiv{ 
+    margin-top: 10px;
+    width: 1280px;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(13px);
+    backdrop-filter: blur(13px);
+    box-shadow: inset 0 0 0 900px rgba(255,255,255,0.09);
+    border-top: 2px solid rgba(225, 225, 225, 0.3);
+    border-left: 2px solid rgba(225, 225, 225, 0.1);
+    border-right: 1px solid rgba(225, 225, 225, 0.2);
+  
+/* IE and Firefox compatible too*/
+/*  background: #969899; 
+/*  opacity: 0.6; */
+
+/*  WHITE FROST */
+/*  box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
+    background-color: rgb(228 228 228 / 15%);  */
+ 
+/*  GRAY FROST */
+/*  box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 10%);
+    background-color: rgb(228 228 228 / 8%);  */
+  
+/*  GRAY FROST using filter: drop shadow */
+/*  filter: drop-shadow(2px 4px 6px black);
+    background-color: rgb(152 151 151 / 35%);
+    box-shadow: inset 0 0 0 200px rgb(255 255 255 / 8%);  */
+  
+/*  GRAYSCALE GLASS */
+/*  backdrop-filter: grayscale(.8) blur(5px);
+    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.08);  */
+  
+}
+
+.logo{
+    width: 6%;
+}
+
+.login{
+padding-left: 134.9px;
+display: flex;
+align-items: center;
+}
+
+.login input[type=button]{
+    transition: all 0.4s ease;
+    width: 160px;
+    height: 42.5px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    color: rgb(141, 141, 141);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px;
+    border-radius: 25px;
+    border: 1px solid rgba(255,255,255,0.8);
+  }
+  
+  .login input[type=button]:hover{
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    background: #adadad;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    
+  }
+  
+  
+  .login input[type=button2]{
+      transition: all 0.4s ease;
+      width: 110px;
+      height: 30px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      border-radius: 2px;
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 6px;
+      margin-right: 10px;
+    }
+  
+    .login input[type=button2]:hover{
+      opacity: 0.8;
+      color: #cac9c9;
+      border-bottom: 3px solid #fff;
+      
+    }
+  
+  .login input[type=button]:active{
+    opacity: 0.6;
+  }
+  
+  
+  .login input[type=button]:focus{
+    outline: none;
+  }
+  
+  ::-webkit-input-placeholder{
+     color: rgba(255,255,255,0.6);
+  }
+  
+  ::-moz-input-placeholder{
+     color: rgba(255,255,255,0.6);
+  }
+
+  .header{
+      margin-top:70px;
+      margin-bottom: 149px;
+  }
+.learn {
+  color: #fff;
+  font-family: 'Fredoka One';
+  font-size: 55px;
+  font-weight: 200;
+}
+
+.learn span{
+    color: #2d8ba0 !important;
+  }
+
+  .glow {
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #2d8ba0, 0 0 4px #2d8ba0, 0 0 5px #2d8ba0, 0 0 6px #2d8ba0, 0 0 7px #2d8ba0;
+    }
+    
+    to {
+      text-shadow: 0 0 2px #fff, 0 0 3px #2d8ba0, 0 0 4px #2d8ba0, 0 0 5px #2d8ba0, 0 0 6px #2d8ba0, 0 0 7px #2d8ba0, 0 0 8px #2d8ba0;
+    }
+  }
+
+  .search{
+      align-items: center;
+  }
+
+  .search input[type=text]{
+    width: 381px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.8);
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px 4px 2px 10px;
+  }
+  
+
+  .search button {
+      margin-left: -40px;
+      width:50px;
+      height:40px ;
+      padding: 10px;
+      border-radius: 10px;
+      background: #ffffff;
+      color: rgb(213, 211, 211);
+      border: 1px solid grey;
+      border-left: none;
+      cursor: pointer;
+    }
+    
+    .search button:hover {
+      background: #8f8f8f;
+    }
+
+    .learn {
+    margin-top: 24px;
+    }
+
+
+    .wh-back{
+        background-color: #E4E4E4;
+        position: absolute;
+        top: -14px;
+        right: 182px;
+        width: 272px;
+        height: 190px;
+        box-shadow: inset 0.2px 0.2px 2px rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(4px);
+        
+        border-radius: 6px;
+        z-index:-1;
+        }
+
+    .image img {
+        position: absolute;
+        top: -5px;
+        right: 191px;
+        height: 200px;
+        
+    }
+
+    .shadow {
+        box-shadow: 14px 14px 14px #9ca1a1, 11px 11px 11px #212121;
+        position: absolute;
+        left: 160px;
+    }
+
+    .tracks{
+        margin-bottom: 100px;
+    }
+
+    .sections:hover {
+        position: relative;
+        bottom: 5px;
+        cursor: pointer;
+        
+    }
+
+    .onBack{
+        position: absolute;
+        background: linear-gradient(180deg, rgb(223, 111, 42) 0%, rgba(242, 191, 75, 0) 100%);
+        border-radius: 3px;
+        height: 200px;
+        width: 290px;
+        box-shadow: inset 0.2px 0.2px 2px rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(4px);
+        border-radius: 9px;
+        z-index:-1;
+        top: -1px;
+        }
+
+.onFront{
+    background: rgba(223, 111, 42, 0.4);
+    box-shadow: inset 0px 0.2px 2px rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(4px);
+    border-radius: 9px;
+        height: 200px;
+        width: 287px;
+        margin-left: 10px;
+        margin-top: 10px;
+    padding-top: 45px;
+    
+}
+
+.onFront h2{
+    font-weight: bolder;
+}
+
+.onFront button{
+    transition: all 0.4s ease;
+    width: 130px;
+    height: 35px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    color: rgb(149, 148, 148);
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 4.5px;
+    border-radius: 25px;
+    border: 1px solid rgba(255,255,255,0.8);
+}
+
+.onFront button:hover {
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    background:  linear-gradient(180deg, rgb(245, 201, 174) 100%, rgba(255,255,255,0.8) 0%);
+    border: 2px solid #fff;
+    
+    border-radius: 25px; 
+}
+
+
+
+.onBack2{
+    position: absolute;
+    background: linear-gradient(180deg, #519ABA 0%, rgba(76, 185, 241, 0) 100%);
+    border-radius: 3px;
+    height: 200px;
+    width: 290px;
+    box-shadow: inset 0.2px 0.2px 2px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 9px;
+    z-index:-1;
+    top: -1px;
+    }
+
+.onFront2{
+background: rgba(112, 177, 207, 0.4);
+box-shadow: inset 0px 0.2px 2px rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+border-radius: 9px;
+    height: 200px;
+    width: 287px;
+    margin-left: 10px;
+    margin-top: 10px;
+padding-top: 45px;
+
+}
+
+.onFront2 h2{
+font-weight: bolder;
+}
+
+.onFront2 button{
+transition: all 0.4s ease;
+width: 130px;
+height: 35px;
+background: #fff;
+border: none;
+cursor: pointer;
+border-radius: 2px;
+color: rgb(149, 148, 148);
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+font-weight: 600;
+padding: 4.5px;
+border-radius: 25px;
+border: 1px solid rgba(255,255,255,0.8);
+}
+
+.onFront2 button:hover {
+opacity: 0.8;
+color: rgb(255, 255, 255);
+background:  linear-gradient(180deg, rgb(174, 215, 245) 100%, rgba(255,255,255,0.8) 0%);
+border: 2px solid #fff;
+
+border-radius: 25px; 
+}
+
+
+
+
+.onBack3{
+    position: absolute;
+    background: linear-gradient(180deg, #CBCB41 0%, rgba(226, 231, 89, 0) 100%);
+    border-radius: 3px;
+    height: 200px;
+    width: 290px;
+    box-shadow: inset 0.2px 0.2px 2px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 9px;
+    z-index:-1;
+    top: 1px;
+    }
+
+.onFront3{
+background: rgba(206, 206, 72, 0.4);
+box-shadow: inset 0px 0.2px 2px rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+border-radius: 9px;
+    height: 200px;
+    width: 287px;
+    margin-left: 10px;
+    margin-top: 10px;
+padding-top: 45px;
+
+}
+
+.onFront3 h2{
+font-weight: bolder;
+}
+
+.onFront3 button{
+transition: all 0.4s ease;
+width: 130px;
+height: 35px;
+background: #fff;
+border: none;
+cursor: pointer;
+border-radius: 2px;
+color: rgb(149, 148, 148);
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+font-weight: 600;
+padding: 4.5px;
+border-radius: 25px;
+border: 1px solid rgba(255,255,255,0.8);
+}
+
+.onFront3 button:hover {
+opacity: 0.8;
+color: rgb(255, 255, 255);
+background:  linear-gradient(180deg, rgb(245, 237, 174) 100%, rgba(255,255,255,0.8) 0%);
+border: 2px solid #fff;
+border-radius: 25px; 
+}
+
+
+
+
+
+
+.onBack4{
+    position: absolute;
+    background: linear-gradient(180deg, #3770A1 0%, #FFD444 100%);
+    border-radius: 3px;
+    height: 200px;
+    width: 290px;
+    box-shadow: inset 0.2px 0.2px 2px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 9px;
+    z-index:-1;
+    top: 1px;
+    }
+
+.onFront4{
+background: linear-gradient(180deg, rgba(55, 112, 161, 0.4) 0%, rgba(255, 212, 68, 0.4) 100%);
+box-shadow: inset 0px 0.2px 2px rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+border-radius: 9px;
+    height: 200px;
+    width: 287px;
+    margin-left: 10px;
+    margin-top: 10px;
+padding-top: 45px;
+
+}
+
+.onFront4 h2{
+font-weight: bolder;
+}
+
+.onFront4 button{
+transition: all 0.4s ease;
+width: 130px;
+height: 35px;
+background: #fff;
+border: none;
+cursor: pointer;
+border-radius: 2px;
+color: rgb(149, 148, 148);
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+font-weight: 600;
+padding: 4.5px;
+border-radius: 25px;
+border: 1px solid rgba(255,255,255,0.8);
+}
+
+.onFront4 button:hover {
+opacity: 0.8;
+color: rgb(255, 255, 255);
+background:  linear-gradient(180deg, rgba(55, 112, 161, 0.4) 0%, rgba(255, 212, 68, 0.4) 100%);
+border: 2px solid #fff;
+border-radius: 25px; 
+}
+
+.social a img{
+    height:50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-basic {
+    padding:20px 0;
+    color:#eceef1;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:16px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+  hr{
+    border-top: 3px solid #ffffff;
+  }
+
+
+  
+  .onFront5{
+    background: rgba(37, 127, 129, 0.71);
+box-shadow: inset 0.2px 0.2px 2px rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(3px);
+    border-radius: 9px;
+        height: 350px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 70px;
+    padding-top: 45px;
+    
+}
+
+.onFront5 h2{
+    font-weight: bolder;
+}
+
+.onFront5 img{
+    margin-top: 30px;
+    height: 20%;
+}
+
+.onFront5 button{
+    transition: all 0.4s ease;
+    width: 150px;
+    height: 35px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    color: rgb(149, 148, 148);
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 4.5px;
+    border-radius: 25px;
+    border: 1px solid rgba(255,255,255,0.8);
+}
+
+.onFront5 button:hover {
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    background:  linear-gradient(180deg, rgb(164, 237, 247) 100%, rgba(255,255,255,0.8) 0%);
+    border: 2px solid #fff;
+    border-radius: 25px; 
+}
+
+.steps li{
+margin-top: 20px;
+
+}
+
+.steps .list-inline-item:not(:last-child){
+    margin-right: 7.5rem;
+}
